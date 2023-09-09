@@ -1,4 +1,4 @@
-import ClassCard from "./classescard";
+import ClassCard from "../../components/cards/ClassCard";
 
 export default function StaffClassLayout() {
   return (

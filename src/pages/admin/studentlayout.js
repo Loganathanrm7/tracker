@@ -1,5 +1,5 @@
-import SideBar from "./sidebar";
-import CourseCard from "./coursecard";
+import SideBar from "../../components/cards/SideBar";
+import CourseCard from "../../components/cards/CourseCard";
 import Button from "@/components/Button";
 
 export default function StudentLayout() {

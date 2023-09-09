@@ -1,5 +1,5 @@
-import CourseCard from "../admin/coursecard";
-import SideBar from "./sidebar";
+import CourseCard from "../../components/cards/CourseCard";
+import SideBar from "../../components/cards/SideBar";
 export default function AdminDashboard() {
   return (
     <div className="dashboard flex m-10 border-2 border-teal-900 min-h-screen ">
