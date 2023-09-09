@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    @apply w-full md:w-2/3 p-4 mx-auto;
+    font-family: 'Roboto Slab', serif;;
+}
+
+.testcss {
+    border: 2px solid red;
+}
+
+// ADmin Dashboard css
+.dashboard{
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+// Staff Courses Page CSS
+
