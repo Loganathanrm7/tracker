@@ -1,4 +1,5 @@
-import SideBar from "../../../components/cards/SideBar";
+import SideBar from "@/components/SideBar";
+
 export default function StudentEdit() {
   return (
     <>

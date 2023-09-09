@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div className="container flex justify-center min-h-screen items-center">
         <div className="w-1/3 ">
-          <h1 className="text-teal-800 w-full text-center">Login</h1>
+          <h1 className="text-teal-800 w-full text-center">Login360 Tracker</h1>
           <div>
             <form>
               <div className="flex flex-col my-4">
