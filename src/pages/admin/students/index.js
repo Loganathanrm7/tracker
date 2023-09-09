@@ -1,8 +1,8 @@
-import SideBar from "../../components/cards/SideBar";
-import CourseCard from "../../components/cards/CourseCard";
+import SideBar from "../../../components/cards/SideBar";
+import CourseCard from "../../../components/cards/CourseCard";
 import Button from "@/components/Button";
 
-export default function StaffLayout() {
+export default function StudentLayout() {
   return (
     <>
       <div className="dashboard flex m-10 border-2 border-teal-900 min-h-screen ">

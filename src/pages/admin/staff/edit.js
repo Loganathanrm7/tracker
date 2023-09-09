@@ -1,4 +1,4 @@
-import SideBar from "../../components/cards/SideBar";
+import SideBar from "../../../components/cards/SideBar";
 export default function StudentEdit() {
   return (
     <>
@@ -17,31 +17,31 @@ export default function StudentEdit() {
                 type="text"
                 id="studentName"
                 name="firstname"
-                placeholder="Enter student name"
+                placeholder="Enter Staff name"
               ></input>
             </div>
             <div className="flex flex-col my-4">
-              <label for="selectedcourse" className="my-2">
-                Course Name
+              <label for="designation" className="my-2">
+                Designation
               </label>
               <input
                 className="border border-teal-800 px-2 py-1 rounded-md"
                 type="text"
-                id="selectedCourse"
-                name="selectedcourse"
-                placeholder="Enter selected course name"
+                id="staffDesignation"
+                name="designation"
+                placeholder="Enter staff designation"
               ></input>
             </div>
             <div className="flex flex-col my-4">
-              <label for="studentdegree" className="my-2">
+              <label for="staffdegree" className="my-2">
                 Degree
               </label>
               <input
                 className="border border-teal-800 px-2 py-1 rounded-md"
                 type="text"
-                id="studentDegree"
-                name="studentdegree"
-                placeholder="Enter  student degree"
+                id="staffDegree"
+                name="staffdegree"
+                placeholder="Enter  staff degree"
               ></input>
             </div>
             <div className="flex flex-col my-4">
@@ -53,7 +53,7 @@ export default function StudentEdit() {
                 type="tel"
                 id="phoneNumber"
                 name="phonenumber"
-                placeholder="Enter student phonenumber"
+                placeholder="Enter staff phonenumber"
               ></input>
             </div>
           </form>

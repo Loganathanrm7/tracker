@@ -1,5 +1,5 @@
-import SideBar from "../../components/cards/SideBar";
-export default function CourseEdit() {
+import SideBar from "../../../components/cards/SideBar";
+export default function StudentEdit() {
   return (
     <>
       <div className="dashboard flex m-10 border-2 border-teal-900 min-h-screen ">
@@ -9,51 +9,51 @@ export default function CourseEdit() {
         <div className="container">
           <form>
             <div className="flex flex-col my-4">
-              <label for="coursename" className="my-2">
+              <label for="firstname" className="my-2">
+                Name
+              </label>
+              <input
+                className="border border-teal-800 px-2 py-1 rounded-md"
+                type="text"
+                id="studentName"
+                name="firstname"
+                placeholder="Enter student name"
+              ></input>
+            </div>
+            <div className="flex flex-col my-4">
+              <label for="selectedcourse" className="my-2">
                 Course Name
               </label>
               <input
                 className="border border-teal-800 px-2 py-1 rounded-md"
                 type="text"
-                id="courseName"
-                name="coursename"
-                placeholder="Give a course name"
+                id="selectedCourse"
+                name="selectedcourse"
+                placeholder="Enter selected course name"
               ></input>
             </div>
             <div className="flex flex-col my-4">
-              <label for="batch" className="my-2">
-                Batch
+              <label for="studentdegree" className="my-2">
+                Degree
               </label>
               <input
                 className="border border-teal-800 px-2 py-1 rounded-md"
                 type="text"
-                id="batchNumber"
-                name="batch"
-                placeholder="Give  a batchnumber"
+                id="studentDegree"
+                name="studentdegree"
+                placeholder="Enter  student degree"
               ></input>
             </div>
             <div className="flex flex-col my-4">
-              <label for="time" className="my-2">
-                Time
+              <label for="phonenumber" className="my-2">
+                PhoneNumber
               </label>
               <input
                 className="border border-teal-800 px-2 py-1 rounded-md"
-                type="text"
-                id="batchTime"
-                name="time"
-                placeholder="Enter  schedule time"
-              ></input>
-            </div>
-            <div className="flex flex-col my-4">
-              <label for="staffname" className="my-2">
-                Staff Name
-              </label>
-              <input
-                className="border border-teal-800 px-2 py-1 rounded-md"
-                type="text"
-                id="staffName"
-                name="staffname"
-                placeholder="Enter batch staffname"
+                type="tel"
+                id="phoneNumber"
+                name="phonenumber"
+                placeholder="Enter student phonenumber"
               ></input>
             </div>
           </form>
