@@ -1,18 +1,16 @@
 export default function CourseCard(props) {
   return (
     <>
-      <div className="flex flex-wrap m-1 p-4 border-2 rounded-md bg-slate-800 text-white  items-center min-h-fit ">
-        <span className="m-1 p-1 flex  min-w-full  bg-teal-800 text-white border-2 rounded-md items-center justify-center">
-          <button>{props.course}</button>
+
+      <div className="p-4 flex flex-col justify-between rounded-md bg-teal-800 shadow-md hover:shadow-xl text-white h-48 cursor-pointer ">
+        <span className=" ">
+          <p className="text-2xl mb-2 ">{props.coursename}</p>
+          <p className="">{props.batchtime}</p>
         </span>
-        <div className="flex justify-center items-center">
-          <span className="m-2 p-1  border-2 bg-teal-700 text-white rounded-md">
-            <button className="min-w-fit">{props.edit}</button>
-          </span>
-          <span className="m-2 p-1  border-2 bg-teal-700 text-white rounded-md">
-            <button className="min-w-fit">{props.delete}</button>
-          </span>
-        </div>
+        <span className="flex justify-between">
+        <button className="w-fit text-base underline underline-offset-4">Edit</button>
+        <button className="w-fit text-base underline underline-offset-4">Delete</button>
+        </span>
       </div>
     </>
   );
