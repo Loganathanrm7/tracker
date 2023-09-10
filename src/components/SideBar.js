@@ -1,7 +1,6 @@
-export default function SideBar(){
-    return(
-        <>
-        
+export default function SideBar() {
+  return (
+    <>
       <div className="m-10 border-2 border-teal-700  min-h-screen min-w-fit p-6 bg-teal-100  ">
         <span className="flex items-center p-2 text-lg ">
           <input
@@ -37,7 +36,6 @@ export default function SideBar(){
           </label>
         </span>
       </div>
-    
-        </>
-    )
+    </>
+  );
 }

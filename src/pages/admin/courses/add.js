@@ -1,4 +1,4 @@
-export default function CourseEdit() {
+export default function CourseAdd() {
   return (
     <div className="dashboard flex  relative">
       <div className="subcontainer fixed h-full flex flex-col items-start border-2 border-teal-900 p-5  text-2xl text-teal-900">
@@ -7,9 +7,7 @@ export default function CourseEdit() {
         <button className="m-5">Staff</button>
       </div>
       <div className="container">
-        <h1 className="text-teal-800 w-full text-center">
-          Edit course Details
-        </h1>
+        <h1 className="text-teal-800 w-full text-center">Add New Course</h1>
         <form>
           <div className="flex flex-col my-4">
             <label for="coursename" className="my-2">
@@ -61,7 +59,7 @@ export default function CourseEdit() {
           </div>
         </form>
         <button className="m-4 p-2  border-2 bg-teal-800 text-white rounded-md ">
-          Update
+          ADD
         </button>
       </div>
     </div>

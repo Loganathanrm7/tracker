@@ -33,9 +33,10 @@ p {
     font-weight: 400;
 }
 .subcontainer{
-    @apply w-full md:w-1/3 p-4 mx-auto;
-    max-width: 1440px;
-        font-family: 'Roboto Slab', serif;;
+    @apply w-full md:w-full p-4 mx-auto;
+    max-width: 240px;
+    font-family: 'Roboto Slab', serif;;
+    font-weight:900
 }
 // Staff Courses Page CSS
 
