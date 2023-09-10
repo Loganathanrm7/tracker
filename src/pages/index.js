@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import { TbChristmasTree } from "react-icons/tb";
 
 export default function Home() {
   return (
@@ -46,6 +47,11 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
+
+<p>
+  Plant trees <TbChristmasTree />
+</p>
     </>
   );
 }
