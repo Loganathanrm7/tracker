@@ -1,3 +1,4 @@
+import AdminSideBar from "@/components/AdminSideBar";
 import Button from "@/components/Button";
 import SideBar from "@/components/SideBar";
 import CourseCard from "@/components/cards/CourseCard";
@@ -5,13 +6,9 @@ import CourseCard from "@/components/cards/CourseCard";
 export default function StaffLayout() {
   return (
     <div className="dashboard flex  relative">
-      <div className="subcontainer fixed h-full flex flex-col items-start border-2 border-teal-900 p-5  text-2xl text-teal-900">
-        <button className="m-5">Courses</button>
-        <button className="m-5">Students</button>
-        <button className="m-5">Staff</button>
-      </div>
+      <AdminSideBar />
       <div className="container">
-        <h1 className="text-teal-800 w-full text-center">Staff </h1>
+        <h1 className="text-teal-800 w-full">Staff </h1>
         <table className="border-2 min-w-full  border-seperate  border-teal-900 text-center">
           <thead className="">
             <tr>

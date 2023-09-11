@@ -6,7 +6,7 @@ export default function CourseCard(props) {
           <p className="text-2xl mb-2 ">{props.coursename}</p>
           <p className="">{props.batchtime}</p>
         </span>
-        <span className="flex justify-between">
+        <span className="flex gap-2 ">
           <button className="w-fit text-base underline underline-offset-4">
             Edit
           </button>

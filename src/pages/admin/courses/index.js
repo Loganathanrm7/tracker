@@ -1,64 +1,60 @@
+import AdminSideBar from "@/components/AdminSideBar";
 import SideBar from "@/components/SideBar";
+import ClassCard from "@/components/cards/ClassCard";
 
 export default function Courses() {
   return (
     <div className="dashboard flex  relative">
-      <div className="subcontainer fixed h-full flex flex-col items-start border-2 border-teal-900 p-5  text-2xl text-teal-900">
-        <button className="m-5">Courses</button>
-        <button className="m-5">Students</button>
-        <button className="m-5">Staff</button>
-      </div>
-      <div className="container">
-        <form>
-          <div className="flex flex-col my-4">
-            <label for="coursename" className="my-2">
-              Course Name
-            </label>
-            <input
-              className="border border-teal-800 px-2 py-1 rounded-md"
-              type="text"
-              id="courseName"
-              name="coursename"
-              placeholder="Give a course name"
-            ></input>
-          </div>
-          <div className="flex flex-col my-4">
-            <label for="batch" className="my-2">
-              Batch
-            </label>
-            <input
-              className="border border-teal-800 px-2 py-1 rounded-md"
-              type="text"
-              id="batchNumber"
-              name="batch"
-              placeholder="Give  a batchnumber"
-            ></input>
-          </div>
-          <div className="flex flex-col my-4">
-            <label for="time" className="my-2">
-              Time
-            </label>
-            <input
-              className="border border-teal-800 px-2 py-1 rounded-md"
-              type="text"
-              id="batchTime"
-              name="time"
-              placeholder="Enter  schedule time"
-            ></input>
-          </div>
-          <div className="flex flex-col my-4">
-            <label for="staffname" className="my-2">
-              Staff Name
-            </label>
-            <input
-              className="border border-teal-800 px-2 py-1 rounded-md"
-              type="text"
-              id="staffName"
-              name="staffname"
-              placeholder="Enter batch staffname"
-            ></input>
-          </div>
-        </form>
+      <AdminSideBar />
+      <div className="container ">
+        <h1 className="text-teal-800 w-full ">Courses</h1>
+        <div className="grid grid-cols-3 gap-4 my-4">
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+          <ClassCard
+            courseName="Frontend"
+            batchName=" Batch 1 "
+            batchTime="8-10 am"
+          />
+        </div>
         <button className="m-4 p-2  border-2 bg-teal-800 text-white rounded-md ">
           Add
         </button>

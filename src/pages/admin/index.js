@@ -1,16 +1,12 @@
+import AdminSideBar from "@/components/AdminSideBar";
 import CourseCard from "@/components/cards/CourseCard";
-import { SiCoursera } from "react-icons/si";
 export default function AdminDashboard() {
   return (
     <div className="dashboard flex  relative ">
-      <div className="subcontainer fixed h-full flex flex-col items-start border-2 border-teal-900 p-5  text-2xl text-teal-900">
-        <button className="m-5 flex items-center " > <SiCoursera  /> &nbsp; Courses</button>
-        <button className="m-5">Students</button>
-        <button className="m-5">Staff</button>
-      </div>
+      <AdminSideBar />
       <div className="container  ">
         <div className="flex">
-          <h1 className="text-teal-800 w-full text-center my-4"> Dashboard</h1>
+          <h1 className="text-teal-800 w-full  mb-2"> Dashboard</h1>
           <button className="m-4 px-2 text-sm border-2 bg-teal-800 text-white rounded-md ">
             Add
           </button>

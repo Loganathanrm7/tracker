@@ -1,13 +1,11 @@
+import AdminSideBar from "@/components/AdminSideBar";
+
 export default function CourseAdd() {
   return (
     <div className="dashboard flex  relative">
-      <div className="subcontainer fixed h-full flex flex-col items-start border-2 border-teal-900 p-5  text-2xl text-teal-900">
-        <button className="m-5">Courses</button>
-        <button className="m-5">Students</button>
-        <button className="m-5">Staff</button>
-      </div>
+      <AdminSideBar />
       <div className="container">
-        <h1 className="text-teal-800 w-full text-center">Add New Course</h1>
+        <h1 className="text-teal-800 w-full ">Add Course</h1>
         <form>
           <div className="flex flex-col my-4">
             <label for="coursename" className="my-2">
