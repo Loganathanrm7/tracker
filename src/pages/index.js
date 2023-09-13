@@ -27,7 +27,7 @@ export default function Home() {
                 </label>
                 <input
                   className="border border-teal-800 px-2 py-1 rounded-md"
-                  type="text"
+                  type="password"
                   id="password"
                   name="password"
                   placeholder="Enter your password"
